@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-12-30)
+## Unreleased (2025-01-01)
 
 <section class="features">
 
@@ -22,6 +22,7 @@
 
 <details>
 
+-   [`8a15baa`](https://github.com/stdlib-js/stdlib/commit/8a15baa639e8c4f45479821cf7331715e0546e86) - **docs:** update related packages sections [(#4425)](https://github.com/stdlib-js/stdlib/pull/4425) _(by stdlib-bot)_
 -   [`718ba36`](https://github.com/stdlib-js/stdlib/commit/718ba365fd18e0e35582433c22f6878a0e744675) - **feat:** add `assert/is-wasm-memory` _(by Athan Reines)_
 
 </details>

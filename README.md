@@ -114,6 +114,12 @@ bool = isWebAssemblyMemory( new ArrayBuffer( 10 ) );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   <span class="package-name">[`@stdlib/assert-has-wasm-support`][@stdlib/assert/has-wasm-support]</span><span class="delimiter">: </span><span class="description">detect native WebAssembly support.</span>
+
 </section>
 
 <!-- /.related -->
@@ -144,7 +150,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -191,6 +197,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-wasm-memory/main/LICENSE
 
 [@stdlib/wasm/memory]: https://github.com/stdlib-js/wasm-memory
+
+<!-- <related-links> -->
+
+[@stdlib/assert/has-wasm-support]: https://github.com/stdlib-js/assert-has-wasm-support
+
+<!-- </related-links> -->
 
 </section>
 
