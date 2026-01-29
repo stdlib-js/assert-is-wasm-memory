@@ -35,14 +35,32 @@ limitations under the License.
 
 > Test if a value is a WebAssembly [memory][@stdlib/wasm/memory] instance.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/assert-is-wasm-memory
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import isWebAssemblyMemory from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-wasm-memory@deno/mod.js';
+var isWebAssemblyMemory = require( '@stdlib/assert-is-wasm-memory' );
 ```
 
 #### isWebAssemblyMemory( value )
@@ -50,7 +68,7 @@ import isWebAssemblyMemory from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is
 Tests if a value is a WebAssembly [memory][@stdlib/wasm/memory] instance.
 
 ```javascript
-import Memory from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-memory@deno/mod.js';
+var Memory = require( '@stdlib/wasm-memory' );
 
 var mem = new Memory({
     'initial': 0
@@ -70,10 +88,10 @@ var bool = isWebAssemblyMemory( mem );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@deno/mod.js';
-import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@deno/mod.js';
-import Memory from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-memory@deno/mod.js';
-import isWebAssemblyMemory from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-wasm-memory@deno/mod.js';
+var Uint8Array = require( '@stdlib/array-uint8' );
+var ArrayBuffer = require( '@stdlib/array-buffer' );
+var Memory = require( '@stdlib/wasm-memory' );
+var isWebAssemblyMemory = require( '@stdlib/assert-is-wasm-memory' );
 
 var mem = new Memory({
     'initial': 0
@@ -115,7 +133,7 @@ bool = isWebAssemblyMemory( new ArrayBuffer( 10 ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -132,7 +150,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2026. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -145,8 +163,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/assert-is-wasm-memory.svg
 [npm-url]: https://npmjs.org/package/@stdlib/assert-is-wasm-memory
 
-[test-image]: https://github.com/stdlib-js/assert-is-wasm-memory/actions/workflows/test.yml/badge.svg?branch=main
-[test-url]: https://github.com/stdlib-js/assert-is-wasm-memory/actions/workflows/test.yml?query=branch:main
+[test-image]: https://github.com/stdlib-js/assert-is-wasm-memory/actions/workflows/test.yml/badge.svg?branch=v0.1.0
+[test-url]: https://github.com/stdlib-js/assert-is-wasm-memory/actions/workflows/test.yml?query=branch:v0.1.0
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/assert-is-wasm-memory/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/assert-is-wasm-memory?branch=main
@@ -158,8 +176,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
@@ -178,11 +196,11 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/assert-is-wasm-memory/main/LICENSE
 
-[@stdlib/wasm/memory]: https://github.com/stdlib-js/wasm-memory/tree/deno
+[@stdlib/wasm/memory]: https://github.com/stdlib-js/wasm-memory
 
 <!-- <related-links> -->
 
-[@stdlib/assert/has-wasm-support]: https://github.com/stdlib-js/assert-has-wasm-support/tree/deno
+[@stdlib/assert/has-wasm-support]: https://github.com/stdlib-js/assert-has-wasm-support
 
 <!-- </related-links> -->
 
