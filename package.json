@@ -38,7 +38,8 @@
   },
   "dependencies": {
     "@stdlib/utils-native-class": "^0.2.2",
-    "@stdlib/wasm-memory": "github:stdlib-js/wasm-memory#main"
+    "@stdlib/wasm-memory": "github:stdlib-js/wasm-memory#main",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
   },
   "devDependencies": {
     "@stdlib/array-buffer": "^0.2.2",
