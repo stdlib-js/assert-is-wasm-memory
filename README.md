@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import isWebAssemblyMemory from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-wasm-memory@esm/index.mjs';
+import isWebAssemblyMemory from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-wasm-memory@v0.1.1-esm/index.mjs';
 ```
 
 #### isWebAssemblyMemory( value )
@@ -78,7 +78,7 @@ var bool = isWebAssemblyMemory( mem );
 import Uint8Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@esm/index.mjs';
 import ArrayBuffer from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@esm/index.mjs';
 import Memory from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm-memory@esm/index.mjs';
-import isWebAssemblyMemory from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-wasm-memory@esm/index.mjs';
+import isWebAssemblyMemory from 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-wasm-memory@v0.1.1-esm/index.mjs';
 
 var mem = new Memory({
     'initial': 0
