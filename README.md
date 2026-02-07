@@ -44,6 +44,11 @@ limitations under the License.
 To use in Observable,
 
 ```javascript
+isWebAssemblyMemory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-wasm-memory@umd/browser.js' )
+```
+The previous example will load the latest bundled code from the umd branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/assert-is-wasm-memory/tags). For example,
+
+```javascript
 isWebAssemblyMemory = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-wasm-memory@v0.1.1-umd/browser.js' )
 ```
 
@@ -56,7 +61,7 @@ var isWebAssemblyMemory = require( 'path/to/vendor/umd/assert-is-wasm-memory/ind
 To include the bundle in a webpage,
 
 ```html
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-wasm-memory@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-wasm-memory@umd/browser.js"></script>
 ```
 
 If no recognized module system is present, access bundle contents via the global scope:
@@ -100,7 +105,7 @@ var bool = isWebAssemblyMemory( mem );
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-uint8@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/array-buffer@umd/browser.js"></script>
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/wasm-memory@umd/browser.js"></script>
-<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-wasm-memory@v0.1.1-umd/browser.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-wasm-memory@umd/browser.js"></script>
 <script type="text/javascript">
 (function () {
 
