@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/assert-is-wasm-memory",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Test if a value is a WebAssembly memory instance.",
   "license": "Apache-2.0",
   "author": {
@@ -38,12 +38,12 @@
   },
   "dependencies": {
     "@stdlib/utils-native-class": "^0.2.2",
-    "@stdlib/wasm-memory": "github:stdlib-js/wasm-memory#main"
+    "@stdlib/wasm-memory": "^0.1.1"
   },
   "devDependencies": {
     "@stdlib/array-buffer": "^0.2.2",
     "@stdlib/array-uint8": "^0.2.2",
-    "@stdlib/assert-has-wasm-support": "^0.2.2",
+    "@stdlib/assert-has-wasm-support": "^0.2.3",
     "@stdlib/assert-is-boolean": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
