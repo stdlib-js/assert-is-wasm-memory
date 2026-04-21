@@ -1,4 +1,0 @@
-// Copyright (c) 2026 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./mod.d.ts" />
-var t="object"==typeof WebAssembly?WebAssembly.Memory:null;var o="object"==typeof WebAssembly?t:function(){throw new Error("not implemented")};var e="function"==typeof Symbol&&"symbol"==typeof Symbol("foo");var n=Object.prototype.toString;var r=Object.prototype.hasOwnProperty;var l="function"==typeof Symbol?Symbol:void 0,y="function"==typeof l?l.toStringTag:"";var c=e&&"symbol"==typeof Symbol.toStringTag?function(t){var o,e,l,c,a;if(null==t)return n.call(t);e=t[y],a=y,o=null!=(c=t)&&r.call(c,a);try{t[y]=void 0}catch(o){return n.call(t)}return l=n.call(t),o?t[y]=e:delete t[y],l}:function(t){return n.call(t)},a="function"==typeof o;function b(t){return a&&t instanceof o||"[object WebAssembly.Memory]"===c(t)}export{b as default};
-//# sourceMappingURL=mod.js.map
